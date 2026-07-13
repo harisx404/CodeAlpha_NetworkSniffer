@@ -74,7 +74,7 @@ TOOL_INFO = {
 BANNER = """
  ╔══════════════════════════════════════════════════════════╗
  ║        NETWORK PACKET SNIFFER  v1.0.0                    ║
- ║        CodeAlpha Network Traffic Analyzer                ║
+ ║        Network Traffic Analyzer                          ║
  ║        github.com/harisx404/CodeAlpha_NetworkSniffer     ║
  ╚══════════════════════════════════════════════════════════╝
 """
