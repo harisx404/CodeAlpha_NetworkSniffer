@@ -89,14 +89,20 @@ sudo python main.py --save-pcap traffic.pcap
 
 ### Live Packet Inspection & Payload Analysis
 *Monitoring TCP traffic with real-time ANSI-sanitized payload extraction.*
+
 ![Live Capture 1](docs/screenshots/SS1.png)
+
 ![Live Capture 2](docs/screenshots/SS2.png)
+
 ![Live Capture 3](docs/screenshots/SS3.png)
+
 ![Live Capture 4](docs/screenshots/SS4.png)
 
 ### Automated Background Demo
 *Programmatic execution showing graceful thread handling and data exports.*
+
 ![Demo Script 1](docs/screenshots/demo_script-1.png)
+
 ![Demo Script 2](docs/screenshots/demo_script-2.png)
 
 ---

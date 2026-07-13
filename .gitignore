@@ -19,8 +19,6 @@ logs/*.log
 captures/*.json
 captures/*.csv
 captures/*.pcap
-docs/screenshots/*.png
-docs/screenshots/*.gif
 _guides/
 
 # IDE
