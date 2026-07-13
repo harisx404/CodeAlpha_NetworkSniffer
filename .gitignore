@@ -20,6 +20,8 @@ captures/*.json
 captures/*.csv
 captures/*.pcap
 _guides/
+*.json
+*.csv
 
 # IDE
 .vscode/
