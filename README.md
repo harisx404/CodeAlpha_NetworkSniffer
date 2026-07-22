@@ -1,15 +1,15 @@
-<h1 align="center">Network Packet Sniffer</h1>
+<h1 align="center">PacketVision Network Sniffer</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.9+-3776AB.svg?style=flat&logo=python&logoColor=white" alt="Python 3.9+">
+  <img src="https://img.shields.io/badge/Python-3.12+-3776AB.svg?style=flat&logo=python&logoColor=white" alt="Python 3.12+">
   <img src="https://img.shields.io/badge/License-MIT-22c55e.svg?style=flat" alt="License MIT">
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-6366f1.svg?style=flat" alt="Platform">
-  <img src="https://img.shields.io/badge/Internship-CodeAlpha-8b5cf6.svg?style=flat" alt="CodeAlpha">
+  <img src="https://img.shields.io/badge/Scapy-2.5+-FF4B4B.svg?style=flat" alt="Scapy">
 </p>
 
 <p align="center">
-  A command-line network packet sniffer engineered with a Producer-Consumer threading architecture,<br>
-  deep protocol dissection, memory safety controls, and a rich terminal interface.
+  A high-performance real-time network packet inspection and protocol analysis engine engineered with a Producer-Consumer threading architecture,<br>
+  deep protocol dissection, memory safety controls, and a rich terminal telemetry interface.
 </p>
 
 ---
@@ -42,8 +42,8 @@ The architecture deliberately separates the capture pipeline from the presentati
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/harisx404/CodeAlpha_NetworkSniffer.git
-cd CodeAlpha_NetworkSniffer
+git clone https://github.com/harisx404/packet-vision-network-sniffer.git
+cd packet-vision-network-sniffer
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -149,7 +149,7 @@ sudo python main.py --save-pcap traffic.pcap
 ## Project Structure
 
 ```
-CodeAlpha_NetworkSniffer/
+packet-vision-network-sniffer/
 ├── main.py                  # CLI entry point and argument parser
 ├── run_demo.py              # Standalone demo and smoke-test script
 ├── requirements.txt         # Python dependencies
@@ -185,12 +185,10 @@ For a detailed breakdown of the threading model, memory safety design, security 
 
 ## Contributing
 
-Contributions and issue reports are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting a pull request.
 
-## License
+## License & Author
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
 
----
-
-*Developed for the CodeAlpha Cybersecurity Internship — focused on performance, memory safety, and terminal security.*
+Developed & Maintained by **Muhammad Haris ([@harisx404](https://github.com/harisx404))**.

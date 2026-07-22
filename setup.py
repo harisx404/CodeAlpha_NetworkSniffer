@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="CodeAlpha_NetworkSniffer",
+    name="packet-vision-network-sniffer",
     version="1.0.0",
-    description="A network packet sniffer built for CodeAlpha",
-    author="Haris",
+    description="PacketVision Network Sniffer — High-performance real-time network packet inspection and protocol analysis engine",
+    author="Muhammad Haris (@harisx404)",
     packages=find_packages(),
     install_requires=[
         "scapy>=2.5.0",

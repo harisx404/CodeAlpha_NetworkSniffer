@@ -1,11 +1,10 @@
 """
-Network Packet Sniffer
-======================
-A network packet analysis tool built with Python and Scapy.
+PacketVision Network Sniffer
+============================
+A high-performance real-time network packet inspection and protocol analysis engine.
 
-Built for CodeAlpha Cybersecurity Internship.
-Author: Haris (harisx404)
-GitHub: https://github.com/harisx404/CodeAlpha_NetworkSniffer
+Author: Muhammad Haris (@harisx404)
+GitHub: https://github.com/harisx404/packet-vision-network-sniffer
 """
 
 __version__ = "1.0.0"

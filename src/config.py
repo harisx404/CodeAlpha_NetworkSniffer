@@ -62,19 +62,18 @@ COMMON_PORTS = {
 }
 
 TOOL_INFO = {
-    "name": "Network Packet Sniffer",
+    "name": "PacketVision Network Sniffer",
     "version": "1.0.0",
-    "author": "Haris",
+    "author": "Muhammad Haris (@harisx404)",
     "github": "harisx404",
-    "repo": "CodeAlpha_NetworkSniffer",
-    "description": "Network traffic analysis tool",
-    "internship": "CodeAlpha Cybersecurity Internship",
+    "repo": "packet-vision-network-sniffer",
+    "description": "High-Performance Real-Time Packet Inspection & Protocol Analysis Engine",
 }
 
 BANNER = """
  ╔══════════════════════════════════════════════════════════╗
- ║        NETWORK PACKET SNIFFER  v1.0.0                    ║
- ║        Network Traffic Analyzer                          ║
- ║        github.com/harisx404/CodeAlpha_NetworkSniffer     ║
+ ║        PACKETVISION NETWORK SNIFFER  v1.0.0              ║
+ ║        Real-Time Traffic Inspection & Analysis Engine    ║
+ ║        github.com/harisx404/packet-vision-network-sniffer ║
  ╚══════════════════════════════════════════════════════════╝
 """
