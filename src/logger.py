@@ -89,7 +89,6 @@ class PacketLogger:
                 "version": TOOL_INFO["version"],
                 "author": f"{TOOL_INFO['author']} | {TOOL_INFO['github']}",
                 "github": f"https://github.com/{TOOL_INFO['github']}/{TOOL_INFO['repo']}",
-                "internship": TOOL_INFO["internship"],
                 "capture_start": datetime.now().isoformat(),
                 "total_packets": len(self._packets),
                 "interface": self.config.interface or "auto",
