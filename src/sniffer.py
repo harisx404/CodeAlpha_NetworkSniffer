@@ -182,6 +182,7 @@ class PacketSniffer:
 
     def list_interfaces(self) -> None:
         """Get available interfaces and display them."""
+        self.display.print_banner()
         from src.utils import get_available_interfaces
         interfaces = get_available_interfaces()
         default = get_default_interface()
